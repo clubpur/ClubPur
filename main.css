@@ -1,0 +1,38 @@
+#border {
+	box-sizing: border-box; 
+	width: 100%; 
+	padding: 3px; 
+}
+header {
+	text-align: center; 
+	padding-top: 6px; 
+	 
+}
+header h3, footer h3 {
+	color: rgb(139,197,62);
+	text-shadow:1px 1px black; 
+}
+main {
+	padding: 6px 6px; 
+	height: 50vh;  
+	background-image: url("clubpur.jpg"); 
+	background-size: cover; 
+	background-position: center center; 
+	background-repeat: no-repeat; 
+	position: relative; 
+	
+}
+main button {
+	position: absolute; 
+	bottom: 6px; 
+	left: 43%; 
+	right: 43%; 
+	color: rgb(139,197,62);
+	
+}
+
+footer {
+	text-align: center; 
+	padding: 6px 6px;
+	height: 20vh; 
+}
